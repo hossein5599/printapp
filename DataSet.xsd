@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet" targetNamespace="http://tempuri.org/DataSet.xsd" xmlns:mstns="http://tempuri.org/DataSet.xsd" xmlns="http://tempuri.org/DataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet" msprop:Generator_UserDSName="DataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="pageform" msprop:Generator_TableClassName="pageformDataTable" msprop:Generator_TableVarName="tablepageform" msprop:Generator_RowChangedName="pageformRowChanged" msprop:Generator_TablePropName="pageform" msprop:Generator_RowDeletingName="pageformRowDeleting" msprop:Generator_RowChangingName="pageformRowChanging" msprop:Generator_RowEvHandlerName="pageformRowChangeEventHandler" msprop:Generator_RowDeletedName="pageformRowDeleted" msprop:Generator_RowClassName="pageformRow" msprop:Generator_UserTableName="pageform" msprop:Generator_RowEvArgName="pageformRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="bothinfos" msdata:Caption="مشخصات طرفین" msprop:Generator_ColumnVarNameInTable="columnbothinfos" msprop:Generator_ColumnPropNameInRow="bothinfos" msprop:Generator_ColumnPropNameInTable="bothinfosColumn" msprop:Generator_UserColumnName="bothinfos" type="xs:string" minOccurs="0" />
+              <xs:element name="name" msdata:Caption="نام" msprop:Generator_ColumnVarNameInTable="columnname" msprop:Generator_ColumnPropNameInRow="name" msprop:Generator_ColumnPropNameInTable="nameColumn" msprop:Generator_UserColumnName="name" type="xs:string" minOccurs="0" />
+              <xs:element name="family" msdata:Caption="نام خانوادگی" msprop:Generator_ColumnVarNameInTable="columnfamily" msprop:Generator_ColumnPropNameInRow="family" msprop:Generator_ColumnPropNameInTable="familyColumn" msprop:Generator_UserColumnName="family" type="xs:string" minOccurs="0" />
+              <xs:element name="father" msdata:Caption="نام پدر" msprop:Generator_ColumnVarNameInTable="columnfather" msprop:Generator_ColumnPropNameInRow="father" msprop:Generator_ColumnPropNameInTable="fatherColumn" msprop:Generator_UserColumnName="father" type="xs:string" minOccurs="0" />
+              <xs:element name="job" msdata:Caption="شغل" msprop:Generator_ColumnVarNameInTable="columnjob" msprop:Generator_ColumnPropNameInRow="job" msprop:Generator_ColumnPropNameInTable="jobColumn" msprop:Generator_UserColumnName="job" type="xs:string" minOccurs="0" />
+              <xs:element name="place" msdata:Caption="محل اقامت" msprop:Generator_ColumnVarNameInTable="columnplace" msprop:Generator_ColumnPropNameInRow="place" msprop:Generator_ColumnPropNameInTable="placeColumn" msprop:Generator_UserColumnName="place" type="xs:string" minOccurs="0" />
+              <xs:element name="request" msdata:Caption="تعیین خواسته و بهای آن" msprop:Generator_ColumnVarNameInTable="columnrequest" msprop:Generator_ColumnPropNameInRow="request" msprop:Generator_ColumnPropNameInTable="requestColumn" msprop:Generator_UserColumnName="request" type="xs:string" minOccurs="0" />
+              <xs:element name="reason" msdata:Caption="دلایل و منظمات دادخواست" msprop:Generator_ColumnVarNameInTable="columnreason" msprop:Generator_ColumnPropNameInRow="reason" msprop:Generator_ColumnPropNameInTable="reasonColumn" msprop:Generator_UserColumnName="reason" type="xs:string" minOccurs="0" />
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:pageform" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
